@@ -1,5 +1,9 @@
 module mvnormCDF
 
-# Write your package code here.
+using HCubature, Distributions,Statistics, StatsBase, LinearAlgebra
+
+include("functions.jl")
+
+export mvnorm_cdf, params
 
 end
