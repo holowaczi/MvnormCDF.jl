@@ -1,7 +1,7 @@
 name = "mvnormCDF"
 uuid = "1aea850a-a5d5-485a-a240-5ea5dd87dad3"
 authors = ["holowaczi <igor.holowacz@gmail.com> and contributors"]
-version = "1.0.0-DEV"
+version = "1.0.0"
 [deps]
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 HCubature = "19dc6840-f33b-545b-b366-655c7e3ffd49"
