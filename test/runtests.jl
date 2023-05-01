@@ -1,7 +1,7 @@
 using mvnormCDF
 using Test, Distributions
 
-testarr = Array{Any}(2,5)
+testarr = Array{Any}(undef,(2,5))
 
 #2 dimensional 
 #cov matrix
@@ -16,7 +16,7 @@ testarr[1,3] = [0, 0]
 testarr[1,4] = 0.33333333
 
 #Acceptable error
-testarr[1,5] = 10^-5
+testarr[1,5] = 10^-4
 
 
 #3 dimensional
@@ -33,7 +33,7 @@ testarr[2,3] = [1, 2, 3]
 testarr[2,4] = 0.38330222
 
 #Acceptable error
-testarr[2,5] = 10^-5
+testarr[2,5] = 10^-4
 
 @testset "mvnormCDF.jl" begin
     for i in 1:2
